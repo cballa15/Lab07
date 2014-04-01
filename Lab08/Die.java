@@ -22,13 +22,13 @@ public class Die {
     public Die() {
         numSides = 6;
         faceValue = (int)(Math.random()*numSides) + 1;
-        System.out.println(faceValue);
+        
     }
 
     public Die(int inNumSides) {
         numSides = inNumSides;
         faceValue = (int)(Math.random()*inNumSides) + 1;
-        System.out.println(faceValue);
+        
     }
 
     public Die(Die inDie) {
